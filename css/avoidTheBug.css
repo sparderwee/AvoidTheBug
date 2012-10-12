@@ -1,0 +1,49 @@
+div#dashboard
+{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #faebd7;
+}
+
+img#loading
+{
+    margin: 25% auto auto auto;
+}
+
+a#startButton
+{
+    font-size: 150%;
+    /*margin-top: 70%;*/
+    visibility: hidden;
+}
+
+p#resultIndicator
+{
+    font-size: 120%;
+    visibility: hidden;
+}
+
+div#highScoreSubmission
+{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    width: 300px;
+    padding: 10px;
+    background-color: #7fffd4;
+    border-radius: 10px;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+div#highScoreSubmission input
+{
+    font-size: 130%;
+}

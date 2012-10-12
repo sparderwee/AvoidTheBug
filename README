@@ -1,0 +1,17 @@
+-------------------------------------
+Avoid the Bug HTML5 & Javascript game
+-------------------------------------
+by Dimitrios Kourkoulis
+
+This is the source code of the Avoid the Bug game, which can be found at
+http://dimitros.net/games/avoidthebug. The current version of the game has 
+been developed in HTML5 and Javascript, but it is a port of an older version 
+I had developed in Actionscript. I have placed the code here for anyone who
+would like to use it as an example, in order to create a simple game like it.
+
+It is not very sophisticated but, reading through it, you can easily find out
+about how to put together some animations, movement, basic collision detection
+and game logic. Oh, and you can explore the bug's superior AI :)
+
+Enjoy!
+ 

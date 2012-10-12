@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AvoidTheBug</title>
+    <link rel="stylesheet" href="css/avoidTheBug.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" ></script>
+    <script src="js/avoidTheBug.js"></script>
+</head>
+<body>
+    <div id="GameDiv"></div>
+    <script>
+        window.addEventListener("load", avoidTheBug, false);
+    </script>
+    <div id="dashboard">
+        <p>
+            <img id="loading" alt="loading..." src="Media/Images/ajax-loader.gif" />
+        </p>
+        <p id="resultIndicator">
+        </p>
+        <p>
+            <a id="startButton" title="Click here to start" href="#">Click here to start</a>
+        </p>
+        <div id="highScoreSubmission">
+            <p>You have achieved a high score!!! Enter your name if you would like it to appear in the high scores list:</p>
+            <p><input id="scoreName" type="text" maxlength="15" /></p>
+            <p><button id="submitHighScore" />Submit</p>
+        </div>
+    </div>
+
+</body>
+</html>
